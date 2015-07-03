@@ -1,0 +1,35 @@
+/** IcheckCSS **/
+.icswitch .ic {
+    cursor: pointer;
+    color: #cacaca;
+    padding: 7px 14px;
+    background: #feffff;
+    background: -moz-linear-gradient(top,  #feffff 0%, #e8e8e8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(100%,#e8e8e8));
+    background: -webkit-linear-gradient(top,  #feffff 0%,#e8e8e8 100%);
+    background: -o-linear-gradient(top,  #feffff 0%,#e8e8e8 100%);
+    background: -ms-linear-gradient(top,  #feffff 0%,#e8e8e8 100%);
+    background: linear-gradient(to bottom,  #feffff 0%,#e8e8e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#e8e8e8',GradientType=0 );
+}
+
+.icswitch .ic.ic-selected {
+    color: white;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(44,160,202)), color-stop(1, rgb(62,184,229)) );
+}
+
+.icswitch .ic-off {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-right: 1px solid #2D7793;
+}
+
+.icswitch .ic-on {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
